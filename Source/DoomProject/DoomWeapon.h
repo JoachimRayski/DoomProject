@@ -18,10 +18,10 @@ public:
 	// Sets default values for this actor's properties
 	ADoomWeapon();
 
-	UPROPERTY(Category = DoomCharacter, VisibleAnywhere, BlueprintReadOnly, meta = (AllowAccess = "true"))
+	UPROPERTY(Category = DoomCharacter, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 		UStaticMeshComponent* weaponMesh;
 
-	UPROPERTY(Category = DoomCharacter, VisibleAnywhere, BlueprintReadOnly, meta = (AllowAccess = "true"))
+	UPROPERTY(Category = DoomCharacter, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 		UPointLightComponent* weaponLight;
 
 
